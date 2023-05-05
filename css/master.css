@@ -1128,7 +1128,8 @@ header nav ul li a:hover {
 }
 
 .show-ans .a {
-  height: 150px !important;
+  min-height: 150px;
+  height: fit-content !important;
   padding-bottom: 30px;
   color: var(--td);
   visibility: visible !important;
