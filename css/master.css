@@ -16,7 +16,7 @@ body {
 
 :root {
   /* Main Transition */
-  --mt : 800ms cubic-bezier(0.23, 1, 0.82, 1); 
+  --mt : 800ms cubic-bezier(0.23, 1, 0.22, 1); 
   --m-shadow: 0 3px 9px rgba(57, 20, 0, 0.08);
   --mc: #EF6D58;
   /* Main Color */
@@ -418,8 +418,18 @@ header nav ul li a:hover {
   height: calc(100vh - 70px);
 }
 
+.center .container{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
 .banner .container {
-  display: flex;
+  display: flex;  
 }
 
 @media (max-width: 991px) {
