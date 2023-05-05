@@ -50,3 +50,5 @@ class FAQ {
 }
 
 new FAQ(document.querySelector('#faq-box'));
+
+setTimeout( _ => Swal.fire('This is not considered a final version, the Website is under development'), 1500);
