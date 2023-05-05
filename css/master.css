@@ -1071,6 +1071,7 @@ header nav ul li a:hover {
 .faq .box .q {
   padding: 30px 0;
   display: flex;
+  gap: 15px;
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
