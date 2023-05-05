@@ -1128,11 +1128,15 @@ header nav ul li a:hover {
 }
 
 .show-ans .a {
-  min-height: 150px;
-  height: fit-content !important;
+  overflow: auto !important;
+  height: 150px !important;
   padding-bottom: 30px;
   color: var(--td);
   visibility: visible !important;
+}
+
+.show-ans .a::-webkit-scrollbar {
+  display: none
 }
 
 .show-ans img {
